@@ -40,7 +40,7 @@ class RegisteredUserController extends Controller
 
         $logoPath =  $request->logo->store('logos');
 
-        $user->employer->create([
+        $user->employer()->create([
             'name' => $employerAttributes['employer'],
             'logo' => $logoPath,
         ]);
