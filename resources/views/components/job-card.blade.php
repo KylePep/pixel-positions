@@ -8,7 +8,7 @@
   </div>
 
   <div class="flex justify-between items-center mt-auto">
-    <div>
+    <div class="space-x-1">
       <x-tag size="small">Backend</x-tag>
       <x-tag size="small">Frontend</x-tag>
       <x-tag size="small">Manager</x-tag>
